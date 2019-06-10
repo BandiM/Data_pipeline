@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.scala-sbt.temp"
+		module="temp-resolve-2cf3fc011b74c8e211a0733d1be821aab30c2ff6"
+		revision="1.0"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190608125716"/>
+	<dependencies>
+		<module organisation="org.apache.kafka" name="kafka_2.12">
+			<revision name="0.10.0.1" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="org.scala-sbt.temp" name="temp-resolve-2cf3fc011b74c8e211a0733d1be821aab30c2ff6" conf="test, compile, runtime" rev="0.10.0.1" rev-constraint-default="0.10.0.1" rev-constraint-dynamic="0.10.0.1" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

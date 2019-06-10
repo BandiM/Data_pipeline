@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.scala-sbt.temp"
+		module="temp-resolve-61625c9eb265d419b10b225a6639611deb88ad52"
+		revision="1.0"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190608121016"/>
+	<dependencies>
+		<module organisation="xmlenc" name="xmlenc">
+			<revision name="0.52" status="release" pubdate="20061123202444" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xmlenc.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2489" time="0" location="C:\Users\PraveenMahithha\.ivy2\cache\xmlenc\xmlenc\ivy-0.52.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xmlenc/xmlenc/0.52/xmlenc-0.52.pom"/>
+				<caller organisation="org.scala-sbt.temp" name="temp-resolve-61625c9eb265d419b10b225a6639611deb88ad52" conf="compile" rev="0.52" rev-constraint-default="0.52" rev-constraint-dynamic="0.52" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="xmlenc" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="org.scala-sbt.temp"
+		module="temp-resolve-2cf3fc011b74c8e211a0733d1be821aab30c2ff6"
+		revision="1.0"
+		status="release"
+		publication="20190608125715"
+	/>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="org.apache.kafka" name="kafka_2.12" rev="0.10.0.1" conf="test->default(compile)">
+			<exclude org="org.slf4j" module="slf4j-log4j12" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="net.jpountz.lz4" module="lz4" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jdmk" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jmx" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="javax.jms" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+	</dependencies>
+</ivy-module>

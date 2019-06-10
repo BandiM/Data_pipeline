@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.scala-sbt.temp"
+		module="temp-resolve-2cf3fc011b74c8e211a0733d1be821aab30c2ff6"
+		revision="1.0"
+		conf="plugin"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190608125716"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>

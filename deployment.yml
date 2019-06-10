@@ -1,0 +1,13 @@
+#w can secify the config for the cluster
+#
+#
+
+-class com.example.datapipeline.jdbc.FileWriter
+ arg: TransactionJSON
+-class com.example.datapipeline.jdbc.FileWriter
+ arg: Item
+
+-class com.example.datapipeline.file.FileReader
+ arg: TransactionJSON
+-class com.example.datapipeline.file.FileReader
+ arg: Item
