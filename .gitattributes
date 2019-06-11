@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+#* text=auto
+* linguist-vendored
+*.scala linguist-vendored=false
+*.groovy linguist-vendored=false
+*.json linguist-vendored=false
+
