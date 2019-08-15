@@ -4,32 +4,18 @@ Built Streaming data pipeline using kafka and spark structured streaming.  FileR
 
 Below are the steps :
 
-•	clone the repo/project
+â€¢	clone the repo/project
 
-• Start zookeeper server using below command
-
- .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties 
-
-• Start kafka server
-
-.\bin\windows\kafka-server-start.bat .\config\server.properties
-
-•	intsall postgres DB into your loacl system
-
-•	Re-Build the project
-
-•	Execute FileReadertest and FileWritertest classes
-
-•   Start zookeeper server using below command
+â€¢   Start zookeeper server using below command
 
      .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties 
 
-• Start kafka server 
+â€¢ Start kafka server 
 
    .\bin\windows\kafka-server-start.bat .\config\server.properties 
 
-•	intsall postgres DB into your loacl system
+â€¢	intsall postgres DB into your loacl system
 
-•	Re-Build the project 
+â€¢	Re-Build the project 
 
-•	Execute FileReadertest and FileWritertest classes 
+â€¢	Execute FileReadertest and FileWritertest classes 
